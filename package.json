@@ -1,0 +1,23 @@
+{
+  "name": "upgradeble-defi-truffle",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile-all": "truffle compile --all",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate",
+    "migrate-reset": "truffle migrate --reset"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreiBatinas/upgradeble-defi-truffle.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
+}
